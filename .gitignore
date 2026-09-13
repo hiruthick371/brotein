@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+.expo/
+.env
+*.log
+.DS_Store
+coverage/
+web/dist/
+backend/dist/
+shared/dist/
+*.tsbuildinfo
+node_modules/.tsbuild/

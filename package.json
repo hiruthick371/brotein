@@ -1,0 +1,23 @@
+{
+  "name": "brotein",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "shared",
+    "backend",
+    "web",
+    "mobile"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev -w backend",
+    "dev:web": "npm run dev -w web",
+    "dev:mobile": "npm run start -w mobile",
+    "build:shared": "npm run build -w shared",
+    "seed": "npm run seed -w backend",
+    "build:backend": "npm run build -w backend",
+    "build:web": "npm run build -w web"
+  },
+  "overrides": {
+    "react-native": "0.74.5"
+  }
+}
